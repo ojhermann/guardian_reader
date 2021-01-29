@@ -1,5 +1,6 @@
 ecdsa==0.14.1
 fastapi==0.63.0
+passlib==1.7.4
 pyasn1==0.4.8
 pydantic==1.7.3
 python-jose==3.2.0
