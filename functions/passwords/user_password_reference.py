@@ -1,5 +1,4 @@
 class UserPasswordReference(str):
-    # todo unit test
     def __init__(
             self,
             username: str):
