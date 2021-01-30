@@ -12,7 +12,19 @@
 
 ### What
 
-TBD
+- `USER_NAME_PASSWORD`
+    - you can create as many of these as required
+    - they need to follow this format:
+        - all capital letters
+        - ending with `PASSWORD`
+        - all words separated by an underscore `_`
+        - the words before `PASSWORD` should be the desired username
+        - e.g. `export TIM_HORTON_PASSWORD=someHashedPassword`
+        - `generate_password_hash` can be used to create a hashed password
+- `GUARDIAN_JWT_KEY`
+    - a random secret key used when signing JWT tokens
+- `GUARDIAN_API_KEY`
+    - create a key [here](https://open-platform.theguardian.com/access/)
 
 ### How
 
