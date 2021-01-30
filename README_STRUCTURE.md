@@ -1,7 +1,16 @@
 # Structure
 
-## `api`
-- contains elements for using the [Open Platform](https://open-platform.theguardian.com/)
+- [client](#client)
+- [functions](#functions)
+- [models](#models)
+- [static_data](#static_data)
+- [services](#services)
+- [test](#test)
+
+## `client`
+
+- contains a client for using the [Open Platform](https://open-platform.theguardian.com/)
+- also contains models encapsulating the responses
 
 ## `functions`
 
