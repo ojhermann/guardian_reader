@@ -23,6 +23,7 @@
         - `generate_password_hash` can be used to create a hashed password
 - `GUARDIAN_JWT_KEY`
     - a random secret key used when signing JWT tokens
+    - e.g. `openssl rand -hex 32`
 - `GUARDIAN_API_KEY`
     - create a key [here](https://open-platform.theguardian.com/access/)
 
