@@ -7,12 +7,10 @@ crypt_context: CryptContext = CryptContext(
 
 
 def generate_password_hash(password: str) -> str:
-    # todo unit test
     return crypt_context.hash(password)
 
 
 def password_is_ok(
         password: str,
         password_hashed: str) -> bool:
-    # todo unit test
     return crypt_context.verify(password, password_hashed)
