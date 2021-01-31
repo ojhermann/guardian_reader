@@ -4,8 +4,8 @@ from fastapi import HTTPException, status
 from httpx import RequestError
 
 from client.client import GuardianClient
-from client.models.edition import Edition
-from client.models.editions import Editions
+from client.models.editions.edition import Edition
+from client.models.editions.editions import Editions
 
 
 async def get_editions(guardian_client: GuardianClient) -> List[Edition]:

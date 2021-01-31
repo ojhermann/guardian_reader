@@ -2,7 +2,7 @@ from typing import List
 
 from pydantic import BaseModel, Field
 
-from client.models.edition import Edition
+from client.models.editions.edition import Edition
 
 
 class Editions(BaseModel):
