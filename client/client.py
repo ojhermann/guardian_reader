@@ -3,7 +3,7 @@ from typing import Dict
 import httpx
 from os import getenv
 
-from client.models.editions import Editions
+from client.models.editions.editions import Editions
 from static_data.api import GUARDIAN_API_KEY
 
 ENDPOINT_EDITIONS: str = "https://content.guardianapis.com/editions"
