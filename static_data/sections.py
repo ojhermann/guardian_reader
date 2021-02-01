@@ -1,1 +1,1 @@
-SECTIONS: str = "SECTION"
+SECTIONS: str = "sections"
