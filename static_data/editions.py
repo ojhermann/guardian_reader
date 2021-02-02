@@ -1,1 +1,1 @@
-EDITIONS: str = "EDITIONS"
+EDITIONS: str = "editions"
