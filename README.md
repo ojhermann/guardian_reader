@@ -6,3 +6,4 @@ the [Open Platform](https://open-platform.theguardian.com/documentation/) to mak
 
 - [Set Up](README_SET_UP.md)
 - [Structure](README_STRUCTURE.md)
+- [Documentation](https://guardian-reader.herokuapp.com/docs)
